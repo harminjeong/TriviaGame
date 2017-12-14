@@ -23,6 +23,6 @@ $(".btn").click(function(){
 });
 
 
-
+// submit button results in alert
 // button[type='button']
 
