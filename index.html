@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Westworld Trivia</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="textbox">
+    
+      <div class="row">
+      <div class="col-md-12"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h1 class="header">Westworld Trivia</h1>
+          <button type="button" class="btn btn-default">Start Quiz !</button>
+<br><br>
+          <p>Timer: <span id="timer">60</span></p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+
+      <div class="col-md-4"></div>
+
+
+    <br>
+    <br>
+
+    <!-- <div class="row"></div> -->
+    <div id="quiz">
+      <p>1. Westworld is based on a book by American novelist _________.</p>
+      <ul>
+        <input type="radio" name="answer1" value="">
+        <label>Michael Crichton</label>
+        <br>
+        <input type="radio" name="answer1" value="">
+        <label>Stephen King</label>
+        <br>
+        <input type="radio" name="answer1" value="">
+        <label>George R.R. Martin</label>
+        <br>
+        <input type="radio" name="answer1" value="">
+        <label>J.K. Rowling</label>
+        <br>
+      </ul>
+
+      <p>2. Who is the oldest host in Westworld?</p>
+      <ul>
+        <input type="radio" name="answer2" value="">
+        <label>Dolores</label>
+        <br>
+        <input type="radio" name="answer2" value="">
+        <label>Teddy</label>
+        <br>
+        <input type="radio" name="answer2" value="">
+        <label>The Man in Black</label>
+        <br>
+        <input type="radio" name="answer2" value="">
+        <label>William</label>
+        <br>
+      </ul>
+
+      <p>3. What is the name of the actor who plays Dr. Ford?</p>
+      <ul>
+        <input type="radio" name="answer3" value="">
+        <label>Anthony Hopkins</label>
+        <br>
+        <input type="radio" name="answer3" value="">
+        <label>Michael Caine</label>
+        <br>
+        <input type="radio" name="answer3" value="">
+        <label>Sean Connery</label>
+        <br>
+        <input type="radio" name="answer3" value="">
+        <label>Gary Oldman</label>
+        <br>
+      </ul>
+
+      <p>4. What do the hosts call the guests in the park?</p>
+      <ul>
+        <input type="radio" name="answer4" value="">
+        <label>Newcomers</label>
+        <br>
+        <input type="radio" name="answer4" value="">
+        <label>Guests</label>
+        <br>
+        <input type="radio" name="answer4" value="">
+        <label>Newbies</label>
+        <br>
+        <input type="radio" name="answer" value="">
+        <label>Visitors</label>
+        <br>
+      </ul>
+
+      <p>5. Who directed the pilot episode of Westworld?</p>
+      <ul>
+        <input type="radio" name="answer4" value="">
+        <label>Jonathan Nolan</label>
+        <br>
+        <input type="radio" name="answer4" value="">
+        <label>J.J. Abrams</label>
+        <br>
+        <input type="radio" name="answer4" value="">
+        <label>Quentin Tarantino</label>
+        <br>
+        <input type="radio" name="answer4" value="">
+        <label>Steven Spielberg</label>
+        <br>
+      </ul>
+    </div>
+
+    </div>
+    </div>
+    <div id="results"></div>
+    
+
+
+    <!-- 
+  1. Westworld is based on a book by American novelist _________.
+  A. Michael Crichton
+  B. Stephen King
+  C. George R.R. Martin
+  D. J.K. Rowling
+
+  2. Who is the oldest host in Westworld?
+  A. Dolores
+  B. Teddy
+  C. The Man in Black
+  D. William
+
+  3. What is the name of the actor who plays Dr. Ford?
+  A. Anthony Hopkins
+  B. Michael Caine
+  C. Sean Connery
+  D. Gary Oldman
+
+  4. What do the hosts call the guests in the park?
+  A. Newcomers
+  B. Guests
+  C. Newbies
+  D. Visitors
+
+  5. Who directed the pilot episode of Westworld?
+  A. Jonathan Nolan
+  B. J.J. Abrams
+  C. Quentin Tarantino
+  D. Steven Spielberg
+  -->
+
+
+
+
+
+
+
+    <!-- JAVASCRIPT - This must be last item in <body>. -->
+    <!-- ========================================= -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    background: url("../images/westworld.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    height:1200px;
+    width:700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    font-family: "Bookman Old Style";
+
+}
+
+#quiz{
+    color:darkblue;
+    /* opacity: .5; */
+    
+}
+
+ul{
+    opacity:initial;
+}
+
+label{
+    opacity: initial;
+}
+
+.header {
+    margin-top: 170px;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.row {
+    text-align: center;
+}
