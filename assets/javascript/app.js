@@ -6,7 +6,7 @@ var counter = 60;
 
 $("#quiz").hide();
 
-$("button[type='button']").click(function(){
+$(".btn").click(function(){
   $("#quiz").show();
     setInterval(function() {
       counter--;
@@ -21,3 +21,8 @@ $("button[type='button']").click(function(){
       }, 1000);
  });
 });
+
+
+
+// button[type='button']
+
