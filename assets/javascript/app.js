@@ -2,6 +2,8 @@ $(document).ready(function() {
 
 var correctAnswers = 0;
 var incorrectAnswers = 0;
+var questions = document.getElementsByTagName("question");
+var answers = ["A", "A", "A", "A", "A"]
 var counter = 60;
 
 $("#quiz").hide();
@@ -22,7 +24,7 @@ $(".btn").click(function(){
  });
 });
 
-
-// submit button results in alert
+// if the user clicks the "A" radio button then the correct answers tally will go up by one, if the user clicks any other choice, the incorrect answers tally will go down by one
+// correct and incorrect answers score will alert after clicking submit
 // button[type='button']
 
